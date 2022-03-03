@@ -1,0 +1,238 @@
+/*
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    position: relative;
+    background: rgba(0, 0, 0, 0.78);
+    width: 100%;
+    min-height: 100vh;
+}
+.logo{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+}
+.bankname1{
+    display: flex;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.bankname2{
+    color: rgba(255, 255, 255, 0.55);
+    display: flex;
+    font-family: 'Poppins';
+    font-size: bold;
+    text-align: center;
+    align-items: center;
+}
+.container1{
+    position: absolute;
+    width: 640px;
+    height: 500px;
+    left: 100px;
+    top: 109px;
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 15px; 
+}
+.Main-title1{
+    position: relative;
+    width: 100px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.container1 {
+    position: relative;
+    background: rgba(0, 0, 0, 0.78);
+    width: 100%;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+.logo {
+    position: sticky;
+    padding-left: 20px;
+    padding-bottom: 250px;
+    display: flex;
+}
+.bankname1{
+    display: flex;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.bankname2{
+    color: rgba(255, 255, 255, 0.55);
+    display: flex;
+    font-family: 'Poppins';
+    font-size: bold;
+    text-align: center;
+    align-items: center;
+}
+body{
+    position: relative;
+    display: flex;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.container{
+    margin-right: 650px;
+    margin-top: 120px;
+    max-width: 420px;
+    height: 600px;
+    background-color:rgba(255, 255, 255, 0.87);
+    padding: 25px 30px;
+    border-radius: 15px;
+}
+.container .title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2- 20px);
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: flex;
+}
+.user-details .input-box input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding-left: 15px;
+    border-bottom-width: 2px;
+    transition: all 0.2 ease-in-out;
+}
+.user-details .input-box input:focus
+.user-details .input-box input:valid{
+    background-color: white;
+}
+form .input-btn{
+    height: 45px;
+    margin: 45px;
+}
+form .input-btn input {
+    height: 100%;
+    width: 70%;
+    outline: none;
+    color: #000;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 100px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form .input-btn input:hover{
+    transition: 0.7s ease-in;
+    color: rgba(0, 0, 0, 0.82);
+}
+.container-2{
+    background-color: white;
+    display: flex;
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    margin-left: 400px;
+    top: 90px;
+    border-radius: 15px;
+    right: 150px;
+    font-family: 'Poppins';
+    background-color: #8e8e8e;
+}
+.Main-title2{
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.Email2{
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bankemail{
+    display: flex;
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 170px;
+    font-size: 18px;
+}
+.Phone{
+    display: flex;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bankphone{
+    display: flex;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 170px;
+    font-size: 18px;
+}
+.Address{
+    display: flex;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bankAddress{
+    display: flex;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 170px;
+    font-size: 18px;
+}
